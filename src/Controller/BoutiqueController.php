@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class BoutiqueController extends AbstractController
 {
-    #[Route(path:'/boutique', name: 'app_boutique')]
+    #[Route(path:'/{_locale}/boutique', name: 'app_boutique', requirements: ['_locale' => '%app.supported_locales%'],)]
     public function index(BoutiqueService $boutiqueService): Response
     {
         $categories = $boutiqueService->findAllCategories();
@@ -19,7 +19,7 @@ final class BoutiqueController extends AbstractController
     }
 
 
-    #[Route(path:'/rayon/{idCategory}', name: 'app_boutique_rayon')]
+    #[Route(path:'/{_locale}/rayon/{idCategory}', name: 'app_boutique_rayon', requirements: ['_locale' => '%app.supported_locales%'],)]
     public function rayon(BoutiqueService $boutiqueService, int $idCategory): Response
     {
         $category = $boutiqueService->findCategorieById($idCategory);
@@ -30,3 +30,5 @@ final class BoutiqueController extends AbstractController
         ]);
     }
 }
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ytR1PIg" resname="boutique.index.boutique_titre">
+        <source>boutique.index.boutique_titre</source>
+        <target>Boutique</target>
+      </trans-unit>
+      <trans-unit id="quzZmR1" resname="boutique.index.rayon_propose">
+        <source>boutique.index.rayon_propose</source>
+        <target>rayons proposés</target>
+      </trans-unit>
+      <trans-unit id="vno.cv9" resname="boutique.rayon.rayon_titre">
+        <source>boutique.rayon.rayon_titre</source>
+        <target>Rayon</target>
+      </trans-unit>
+      <trans-unit id="U5XG.zl" resname="boutique.rayon.produit_dispo">
+        <source>boutique.rayon.produit_dispo</source>
+        <target>produits disponibles</target>
+      </trans-unit>
+      <trans-unit id="A6o0pcv" resname="default.index.boutique_titre">
+        <source>default.index.boutique_titre</source>
+        <target>Boutique R4.01</target>
+      </trans-unit>
+      <trans-unit id="W7FERKV" resname="default.index.rien_a_vendre">
+        <source>default.index.rien_a_vendre</source>
+        <target>Ici, rien à vendre, c'est juste pour apprendre...</target>
+      </trans-unit>
+      <trans-unit id="mbHDQuR" resname="default.contact.garder_contact">
+        <source>default.contact.garder_contact</source>
+        <target>Garder contact</target>
+      </trans-unit>
+      <trans-unit id="tuhDN3x" resname="template.navbar.accueil_boutique">
+        <source>template.navbar.accueil_boutique</source>
+        <target>accueil boutique</target>
+      </trans-unit>
+      <trans-unit id="UODuFr7" resname="template.navbar.boutique">
+        <source>template.navbar.boutique</source>
+        <target>Boutique</target>
+      </trans-unit>
+      <trans-unit id="do.ygQG" resname="template.navbar.contact">
+        <source>template.navbar.contact</source>
+        <target>Contact</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
